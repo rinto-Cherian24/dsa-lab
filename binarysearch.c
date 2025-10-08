@@ -31,7 +31,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("Enter the number to be searched:\n");
+    printf("Enter the search number:\n");
     scanf("%d",&key);
     int result = binarysearch(arr,n,key);
     if (result!=-1)
