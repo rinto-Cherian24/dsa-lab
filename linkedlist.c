@@ -38,7 +38,7 @@ void insertEnd(int value){
 
 void insertPos(int value, int key){
     if(head == NULL){
-        printf("List is empty. Key not found.\n");
+        printf("List is empty. Key cannot be found.\n");
         return;
     }
     Node *new = newnode(value);
