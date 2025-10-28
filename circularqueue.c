@@ -48,7 +48,7 @@ void display() {
     printf("\n");
 }
 
-
+ 
 void peek() {
     if (front == -1)
         printf("Queue is EMPTY!\n");
